@@ -7,8 +7,14 @@
 - Matplotlib / Seaborn
 - scikit-learn
 
+## 📁 File Utama
+| Nama File                        | Deskripsi |
+|----------------------------------|-----------|
+| `penjelasan_koding.py`           | Kode utama untuk sintesis data, pelatihan model, evaluasi, dan visualisasi grafik. Gunakan ini untuk menjalankan proyek dengan data sintesis 10.000 baris. |
+| `penjelasan_koding_initialdata.py` | Versi kode untuk eksperimen dengan data asli sebanyak 1.006 baris (tanpa augmentasi). Cocok untuk analisis pembanding. |
+
 ## 🔢 Proses Utama
-1. **Data Sintesis**  
+1. **Membuat Data Sintesis**  
    Data sebesar 10.000 baris dibuat menggunakan rumus berbasis arus, tegangan, dan daya. Nilai acak dibuat menggunakan `numpy.random`, dan diatur dengan `np.random.seed(42)` serta `torch.manual_seed(42)` untuk memastikan hasil yang konsisten.
 
 2. **Normalisasi dan Split**  
