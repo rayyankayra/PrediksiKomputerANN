@@ -11,7 +11,7 @@
 | Nama File                        | Deskripsi |
 |----------------------------------|-----------|
 | `penjelasan_koding.py`           | Kode utama untuk sintesis data, pelatihan model, evaluasi, dan visualisasi grafik. Gunakan ini untuk menjalankan proyek dengan data sintesis 10.000 baris. |
-| `penjelasan_koding_initialdata.py` | Versi kode untuk eksperimen dengan data asli sebanyak 1.006 baris (tanpa augmentasi). Cocok untuk analisis pembanding. |
+| `penjelasan_koding_initialdata.py` | Versi kode untuk eksperimen dengan data asli sebanyak 1.006 baris (tanpa augmentasi). |
 
 ## 🔢 Proses Utama
 1. **Membuat Data Sintesis**  
